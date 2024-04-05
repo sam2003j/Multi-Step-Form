@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/multistepform/static/css/main.7587e50c.css",
+    "main.js": "/multistepform/static/js/main.9e66738e.js",
+    "index.html": "/multistepform/index.html",
+    "main.7587e50c.css.map": "/multistepform/static/css/main.7587e50c.css.map",
+    "main.9e66738e.js.map": "/multistepform/static/js/main.9e66738e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7587e50c.css",
+    "static/js/main.9e66738e.js"
+  ]
+}
