@@ -1,0 +1,179 @@
+/* FirstPage.css */
+
+.first-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 25px;
+}
+
+.first-progress-container {
+    margin: 0px 0px 0px 72px;
+    width: calc(100% - 20%);
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        align-items: center;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+}
+
+.content {
+    text-align: center;
+} 
+
+.big-text{
+        font-size: 30px;
+        font-weight: 700;
+        font-family: "Soleil", "Arial", sans-serif;
+}
+
+.small-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 25px;
+    color: #535353;
+    box-sizing: border-box;
+    font-family: "Soleil", "Arial", sans-serif;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options button {
+    margin: 5px;
+}
+
+.options button.selected {
+    border-color: #F2B135;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.options-container {
+    margin-top: 20px;
+}
+
+.option-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.option-button.disabledStyle {
+    background-color: #fff;
+    /* Same as default */
+}
+
+.option-button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0px 0px 12px;
+    padding: 16px 24px;
+    border: 0.5px solid #E6E6E6;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 50px;
+    max-width: 570px;
+    width: 100%;
+    
+}
+
+.option-icon {
+    margin-right: 24px;
+        max-height: 21px;
+}
+
+.option-button p{
+    margin: 0;
+    line-height: 50px;
+}
+
+.continueButton {
+    background-color: black;
+        color: #FFFFFF;
+        max-width: 176px;
+        font-weight: 600;
+        font-size: 18px;
+        height: 48px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        place-content: center;
+        border-radius: 6px;
+        line-height: 32px;
+        border: 0;
+        margin-top: 25px;
+        padding-top: 7px;
+}
+
+/* FirstPage.css */
+
+/* Adjust layout for smaller screens */
+@media (max-width: 576px) {
+    .first-page-container {
+        padding: 10px;
+        /* Adjust padding */
+    }
+
+    .progress-bar {
+        width: 100%;
+        /* Make progress bar full width */
+        margin: 10px 0;
+        /* Adjust margin */
+    }
+
+    .content {
+        padding: 0 10px;
+        /* Adjust padding */
+    }
+
+    .option-box {
+        width: 100%;
+    }
+
+    .option-button {
+        width: calc(100% - 20px);
+        /* Make buttons 100% width with some margin */
+        margin: 5px 0;
+        /* Adjust margin */
+        padding: 10px;
+        /* Adjust padding */
+    }
+
+    .option-icon {
+        height: 20px;
+        /* Adjust icon height */
+        margin-right: 10px;
+        /* Adjust margin */
+    }
+
+    .continueButton {
+        font-size: 16px;
+        /* Adjust font size */
+        height: 40px;
+        /* Adjust height */
+        margin-top: 15px;
+        /* Adjust margin */
+        width: 100%;
+        /* Make button full width */
+    }
+}

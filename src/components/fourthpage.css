@@ -1,0 +1,157 @@
+.fourth-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 25px;
+}
+
+.fourth-progress-container {
+    margin: -24px 0px 0px 160px;
+    width: calc(100% - 20%);
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    width: calc(100% - 20%);
+    height: 5px;
+    background-color: #ccc;
+    margin: 30px 70px 30px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #179E7E;
+}
+
+.fourth-content {
+    text-align: center;
+}
+
+.line1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.line2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options button {
+    margin: 5px;
+}
+
+.options button.selected {
+    font-weight: bold;
+}
+
+button[disabled] {
+    background-color: black;
+        color: #FFFFFF;
+        max-width: 176px;
+        font-weight: 600;
+        font-size: 18px;
+        height: 48px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        place-content: center;
+        border-radius: 6px;
+        line-height: 32px;
+        border: 0;
+        margin-top: 25px;
+}
+
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.option-box {
+    width: calc(25% - 10px);
+    text-align: center;
+    margin-right: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.ButtonCard {
+    width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0px 8px;
+        cursor: pointer;
+}
+
+.ButtonText {
+    font-family: "Soleil", "Arial", sans-serif;
+    font-weight: normal;
+}
+
+.description {
+    color: #888;
+    font-size: 14px;
+}
+
+.selected .ButtonCard {
+        box-shadow: 0px 0px 10px 2px #F6E8B1;
+}
+
+.option-box:last-child {
+    margin-right: 0;
+}
+
+.button-icon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.button-icon img {
+        padding: 8px;
+            max-height: 100%;
+            max-width: 150px;
+}
+
+.ButtonText,
+.description{
+    margin: 10px 0;
+}
+
+.continueButton {
+    background-color: black;
+    color: #FFFFFF;
+    max-width: 176px;
+    font-weight: 600;
+    font-size: 18px;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    border-radius: 6px;
+    line-height: 32px;
+    border: 0;
+    margin-top: 20px;
+    padding-top: 7px;
+}

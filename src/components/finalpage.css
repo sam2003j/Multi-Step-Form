@@ -1,0 +1,82 @@
+/* FinalPage.css */
+.final-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.final-option-boxes {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.final-popular-tag {
+background-color: #EEA71F;
+    color: black;
+    padding: 4px 7px;
+    border-radius: 10px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+    }
+
+.final-option-box {
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.final-option-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.final-option-box p {
+    margin: 10px 0;
+}
+
+.final-option-box:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px #F6E8B1;
+}
+
+.final-option-box.selected {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 2px #F6E8B1;
+}
+
+.big-text {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Soleil", "Arial", sans-serif;
+}
+
+.small-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 25px;
+    color: #535353;
+    box-sizing: border-box;
+    font-family: "Soleil", "Arial", sans-serif;
+}

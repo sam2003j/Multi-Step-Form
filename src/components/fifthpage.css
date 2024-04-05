@@ -1,0 +1,93 @@
+.fifth-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 110vh;
+}
+
+.fifth-progress-container {
+    margin: -24px 0px 0px 160px;
+    width: calc(100% - 20%);
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.progress-bar {
+    width: calc(100% - 20%);
+    height: 5px;
+    background-color: #ccc;
+    margin: 30px 70px 30px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #179E7E;
+}
+
+.fifth-content {
+    text-align: center;
+}
+
+.big-text {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.small-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.fifth-video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 20px auto;
+    min-height: 62vh;
+    max-height: 1100px;
+}
+
+.text-container {
+    padding-left: 60px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: "Soleil", "Arial", sans-serif;
+}
+
+.fifth-video {
+    max-width: 300px;
+    max-height: 100%;
+    padding-left: 90px;
+}
+
+.stars {
+    color: #EEA71F;
+        font-size: 32px;
+        line-height: 2;
+        letter-spacing: .1em;
+}
+
+.continueButton {
+    background-color: black;
+    color: #FFFFFF;
+    max-width: 176px;
+    font-weight: 600;
+    font-size: 18px;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    border-radius: 6px;
+    line-height: 32px;
+    border: 0;
+    margin-top: 20px;
+    padding-top: 7px;
+}
